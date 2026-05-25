@@ -1,82 +1,61 @@
-body{
-  margin:0;
-  padding:0;
-  font-family:Arial;
-  background:#f2f2f2;
+body {
+  font-family: Arial;
+  margin: 0;
+  background: #f4f4f4;
 }
 
-.container,
-.login-box,
-.register-box,
-.dashboard,
-.students-page,
-.profile-container,
-.books-page{
-  width:90%;
-  margin:auto;
-  padding:20px;
+.center {
+  width: 300px;
+  margin: 100px auto;
+  text-align: center;
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
 }
 
-.login-box,
-.register-box{
-  max-width:400px;
-  background:white;
-  margin-top:50px;
-  border-radius:10px;
-  padding:20px;
-  box-shadow:0 0 10px rgba(0,0,0,0.2);
+input, select {
+  width: 90%;
+  padding: 10px;
+  margin: 5px 0;
 }
 
-input,
-button,
-select{
-  width:100%;
-  padding:10px;
-  margin-top:10px;
+button {
+  padding: 10px;
+  background: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+  margin: 5px;
 }
 
-button{
-  background:#1e88e5;
-  color:white;
-  border:none;
-  cursor:pointer;
+header {
+  background: #333;
+  color: white;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
 }
 
-button:hover{
-  background:#1565c0;
+nav {
+  background: #444;
+  padding: 10px;
 }
 
-table{
-  width:100%;
-  border-collapse:collapse;
-  margin-top:20px;
-  background:white;
+nav button {
+  background: #666;
 }
 
-table th,
-table td{
-  border:1px solid #ddd;
-  padding:10px;
-  text-align:center;
+.tab {
+  padding: 20px;
 }
 
-table th{
-  background:#1e88e5;
-  color:white;
+.hidden {
+  display: none;
 }
 
-.branch-card{
-  background:white;
-  padding:20px;
-  margin:10px;
-  display:inline-block;
-  cursor:pointer;
-  border-radius:10px;
-}
-
-.profile-photo{
-  width:120px;
-  height:120px;
-  border-radius:50%;
-  object-fit:cover;
+.card {
+  background: white;
+  padding: 10px;
+  margin: 5px 0;
+  border-radius: 5px;
 }
