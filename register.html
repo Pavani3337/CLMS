@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Student Registration</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="register-box">
+
+<h1>Student Registration</h1>
+
+<input type="text" id="fullName" placeholder="Full Name">
+
+<input type="text" id="rollNumber" placeholder="Roll Number">
+
+<div class="branch-box">
+  <label><input type="radio" name="branch" value="CSE"> CSE</label>
+  <label><input type="radio" name="branch" value="ECE"> ECE</label>
+  <label><input type="radio" name="branch" value="EEE"> EEE</label>
+</div>
+
+<input type="file" id="photo">
+
+<input type="text" id="adminId" placeholder="Admin ID">
+
+<input type="password" id="adminPassword" placeholder="Admin Password">
+
+<button onclick="registerStudent()">Register</button>
+
+</div>
+
+<script src="storage.js"></script>
+<script src="register.js"></script>
+
+</body>
+</html>

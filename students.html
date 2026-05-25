@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Students</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="students-page">
+
+<h1>Students List</h1>
+
+<input type="text" id="searchInput" placeholder="Search Roll Number" onkeyup="searchStudent()">
+
+<table>
+  <thead>
+    <tr>
+      <th>Serial No</th>
+      <th>Full Name</th>
+      <th>Roll Number</th>
+      <th>Action</th>
+    </tr>
+  </thead>
+
+  <tbody id="studentsTableBody"></tbody>
+</table>
+
+</div>
+
+<script src="students.js"></script>
+
+</body>
+</html>
